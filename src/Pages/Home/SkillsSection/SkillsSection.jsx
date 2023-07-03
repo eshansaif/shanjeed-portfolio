@@ -1,5 +1,4 @@
-import Marquee from "react-fast-marquee";
-import { motion } from "framer-motion";
+
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa'
 import { SiDaisyui, SiExpress, SiFirebase, SiMongodb, SiMysql, SiTailwindcss } from 'react-icons/Si'
 import { RiJavascriptFill } from 'react-icons/ri'
@@ -14,7 +13,10 @@ const SkillsSection = () => {
         </h1>
       </div>
 
-      <section className='text-white grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6'>
+      <section
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className='text-white grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6'>
         <div className=' p-8 shadow-2xl flex flex-col items-center'>
           <FaHtml5 size={150} className='  '></FaHtml5>
           <h3 className=' text-center'>HTML5</h3>

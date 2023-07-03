@@ -3,6 +3,7 @@ import profile from "../../../assets/profile.json";
 import "./MenuBar.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import ReactTypingEffect from "react-typing-effect";
 
 const MenuBar = () => {
   return (
@@ -14,22 +15,44 @@ const MenuBar = () => {
           data-aos-duration="3000"
         >
           <h1 className="text-xl lg:text-3xl font-bold">
-            Hi I Am{" "}
+            <span className="text-center">Welcome</span>{" "}
+            <br />
             <span className="text-2xl lg:text-4xl  font-bold">
-              Prashoman Chakrabarti
+              I'm Md. Shanjeed Saif
             </span>
           </h1>
-          <div className="animated-text">
+          {/* <div className="animated-text">
             <h1>A MERN STACK DEVELOPER</h1>
             <h1>A FRONT END DEVELOPER</h1>
             <h1>A WEB DEVELOPER</h1>
-          </div>
+          </div> */}
+
+          <ReactTypingEffect
+            text={["Full-Stack Web Developer ", "Specialized in MERN Stack ", "React.js Developer ", "Front-end Web Developer "]}
+            cursorRenderer={cursor => <h1 className=' text-3xl'>{cursor}</h1>}
+            displayTextRenderer={(text, i) => {
+              return (
+                <h1>
+                  {text.split('').map((char, i) => {
+                    const key = `${i}`;
+                    return (
+                      <span
+                        className='text-3xl lg:text-5xl font-bold text-white'
+                        key={key}
+                      // style={i % 2 === 0 ? { color: 'magenta' } : {}}
+                      >{char}</span>
+                    );
+                  })}
+                </h1>
+              );
+            }}
+            speed={50}
+            startDelay={50}
+          />
 
           <p className="py-6">
-            I am a MERN Stack Developer. I from Dhaka, Bangladesh. I have
-            completed my diploma course with computer technology from cumilla
-            polytechnic institute in 2022.Recently, I have completed Mern stack
-            course from Programming hero.
+            Passionate about web development and skilled in the MERN Stack. I have
+            completed my Bachelor program in Business Information Technology (BIT) and completing my Masters in Software Engineering. I'm a Fresher developer ready to make an impact. With expertise in HTML, CSS, JavaScript, React, Express.js and Node.js I enjoy building user-friendly web applications.
           </p>
           <Link to="/projects">
             <motion.button
@@ -40,7 +63,7 @@ const MenuBar = () => {
               }}
               className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
             >
-              See More Project
+              See All Projects
             </motion.button>
           </Link>
         </div>

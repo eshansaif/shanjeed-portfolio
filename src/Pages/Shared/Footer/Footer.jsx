@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <div className="bg-gray-700 w-full px-6 lg:px-24 py-6  text-white">
       <div className="lg:flex justify-between items-center space-y-3">
-        <Link>
-          <span className="uppercase font-bold">Shanjeed Saif</span>
+        <Link to="/">
+          <span className="uppercase font-bold">Shanjeed <span className="text-[#1fc9e7]">Saif</span></span>
         </Link>
         <div>
           <p className="lg:text-xl font-sans">

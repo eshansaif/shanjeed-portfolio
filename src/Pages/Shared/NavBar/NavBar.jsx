@@ -30,7 +30,8 @@ const NavBar = () => {
       >
         <div>
           <Link to="/">
-            <span className="uppercase font-bold">Shanjeed Saif</span>
+
+            <span className="uppercase font-bold">Shanjeed <span className="text-[#1fc9e7]">Saif</span></span>
           </Link>
         </div>
         <div>

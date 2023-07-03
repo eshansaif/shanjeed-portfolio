@@ -135,19 +135,6 @@ const Projects = () => {
                 Live
               </a>
             </div>
-            {/* <div className="card-actions justify-end">
-              <motion.button
-                whileHover={{
-                  scale: 1.1,
-                  textShadow: "0px 0px 8px rgb(255,255,255)",
-                  boxShadow: "0px 0px 8px rgb(255,255,255)",
-                }}
-                onClick={() => window.my_modal_7.showModal()}
-                className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
-              >
-                Details
-              </motion.button>
-            </div> */}
           </div>
         </div>
       </div>
