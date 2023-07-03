@@ -1,0 +1,24 @@
+.image-wrap {
+  width: 100%;
+  height: 200px;
+}
+.image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: all 5s ease-in-out;
+}
+.image-wrap:hover img {
+  object-position: bottom center;
+}
+
+.bg-style {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+}
+
+@media screen and (max-width: 600px) {
+  .bg-style {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  }
+}

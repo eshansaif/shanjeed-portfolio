@@ -1,0 +1,67 @@
+.section-style {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+}
+.section-about {
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
+}
+.section-services {
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+.animated-text {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+}
+.animated-text h1 {
+  color: #4e9eff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+.animated-text h1:nth-child(1) {
+  animation: text-move 15s infinite;
+}
+@keyframes text-move {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  75% {
+    margin-top: -70px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-about {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .section-services {
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  }
+  .animated-text {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  .animated-text h1 {
+    color: #4e9eff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+  }
+}
+
+/* .content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+} */
