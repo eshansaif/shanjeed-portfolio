@@ -28,26 +28,26 @@ const Projects = () => {
             <div className="image-wrap">
               <img
                 className="img"
-                src="https://i.ibb.co/Lg5ywHq/127-0-0-1-5173-1.png"
-                alt="Shoes"
+                src="pixieplay.png"
+                alt="PixiePlay"
               />
             </div>
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Photography Institute Website</h2>
+            <h2 className="card-title">PixiePlay (A Car Toys Market place for Kids)</h2>
             <div className="flex space-x-3 items-center">
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/photo-school-client">
+              <a href="https://github.com/eshansaif/pixieplay-client">
                 Client
               </a>
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/photo-school-server">
+              <a href="https://github.com/eshansaif/pixieplay-clientr">
                 Server
               </a>
               <FaLink className="w-8 h-7"></FaLink>:{" "}
-              <a href="https://photography-school-client.web.app/">Live</a>
+              <a href="https://pixieplay-e4ac8.web.app/">Live</a>
             </div>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <motion.button
                 whileHover={{
                   scale: 1.1,
@@ -59,7 +59,7 @@ const Projects = () => {
               >
                 Details
               </motion.button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div
@@ -71,27 +71,27 @@ const Projects = () => {
             <div className="image-wrap">
               <img
                 className="img"
-                src="https://i.ibb.co/jMkptVL/127-0-0-1-5173-2.png"
-                alt="Shoes"
+                src="baburchi-king.png"
+                alt="Baburchi king"
               />
             </div>
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Indian Chef Recipes Website</h2>
+            <h2 className="card-title">Baburchi King (A recipe Showcasing Website)</h2>
 
             <div className="flex space-x-3 items-center">
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/indian-chef-recipe-client">
+              <a href="https://github.com/eshansaif/baburchi-king">
                 Client
               </a>
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/indian-chef-recipes-server">
+              <a href="https://github.com/eshansaif/baburchi-king-server">
                 Server
               </a>
               <FaLink className="w-8 h-7"></FaLink>:{" "}
-              <a href="https://indian-chef-recipe-client.web.app/">Live</a>
+              <a href="https://baburchi-king.web.app/">Live</a>
             </div>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <motion.button
                 whileHover={{
                   scale: 1.1,
@@ -103,7 +103,7 @@ const Projects = () => {
               >
                 Details
               </motion.button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div
@@ -115,31 +115,27 @@ const Projects = () => {
             <div className="image-wrap">
               <img
                 className="img"
-                src="https://i.ibb.co/q75kfVP/127-0-0-1-5173-5.png"
+                src="jobs-career.png"
                 alt="Shoes"
               />
             </div>
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Animal Toys Website</h2>
+            <h2 className="card-title">Jobs & Careers (A job Portal)</h2>
             <div className="flex space-x-3 items-center">
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/animal-toys-client">
-                Client
-              </a>
-              <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/Prashoman/animal-toys-server">
-                Server
+              <a href="https://github.com/eshansaif/jabs-and-careers">
+                Github Link
               </a>
               <FaLink className="w-8 h-7"></FaLink>:{" "}
               <a
                 className="font-bold"
-                href="https://animal-toys-client.web.app/"
+                href="https://subtle-pie-1ec5d0.netlify.app/"
               >
                 Live
               </a>
             </div>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <motion.button
                 whileHover={{
                   scale: 1.1,
@@ -151,7 +147,7 @@ const Projects = () => {
               >
                 Details
               </motion.button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
