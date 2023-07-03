@@ -15,7 +15,7 @@ const MenuBar = () => {
           data-aos-duration="3000"
         >
           <h1 className="text-xl lg:text-3xl font-bold">
-            <span className="text-center">Welcome</span>{" "}
+            <span className="text-center text-base">Welcome</span>{" "}
             <br />
             <span className="text-2xl lg:text-4xl  font-bold">
               I'm Md. Shanjeed Saif
@@ -37,7 +37,7 @@ const MenuBar = () => {
                     const key = `${i}`;
                     return (
                       <span
-                        className='text-3xl lg:text-5xl font-bold text-white'
+                        className='text-3xl lg:text-5xl font-bold text-[#1fc9e7]'
                         key={key}
                       // style={i % 2 === 0 ? { color: 'magenta' } : {}}
                       >{char}</span>
