@@ -1,11 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Abouts = () => {
@@ -43,7 +39,13 @@ const Abouts = () => {
             </TabList>
             <TabPanel>
               <p>
-                I’m Md. Shanjeed Saif, Dynamic and motivated React developer with a strong passion for front-end web development. Eager to apply my expertise in crafting visually stunning and user-friendly interfaces that elevate user experiences. Seeking a challenging opportunity to contribute my skills and drive innovation at a destination where I can thrive and make a meaningful impact.
+                I’m Md. Shanjeed Saif, Dynamic and motivated React developer
+                with a strong passion for front-end web development. Eager to
+                apply my expertise in crafting visually stunning and
+                user-friendly interfaces that elevate user experiences. Seeking
+                a challenging opportunity to contribute my skills and drive
+                innovation at a destination where I can thrive and make a
+                meaningful impact.
               </p>
             </TabPanel>
             <TabPanel>
@@ -316,7 +318,7 @@ const Abouts = () => {
                 //textShadow: "0px 0px 8px rgb(255,255,255)",
                 boxShadow: "0px 0px 8px rgb(255,255,255)",
               }}
-              href="Md_Shanjeed_Saif_Resume.pdf"
+              href="Md_Shanjeed Saif_Resume_MERN.pdf"
               download="Md_Shanjeed_Saif_Resume"
               className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
             >

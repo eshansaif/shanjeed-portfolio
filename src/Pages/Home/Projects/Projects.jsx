@@ -26,20 +26,55 @@ const Projects = () => {
         >
           <figure>
             <div className="image-wrap">
-              <img
-                className="img"
-                src="pixieplay.png"
-                alt="PixiePlay"
-              />
+              <img className="img" src="hotelheaven.png" alt="HotelHeaven" />
             </div>
           </figure>
           <div className="card-body">
-            <h2 className="card-title">PixiePlay (A Car Toys Market place for Kids)</h2>
+            <h2 className="card-title">HotelHeaven (A hotel booking system)</h2>
             <div className="flex space-x-3 items-center">
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/eshansaif/pixieplay-client">
+              <a href="https://github.com/eshansaif/hotel-haven-frontend">
                 Client
               </a>
+              <FaGithub className="w-8 h-7"></FaGithub>:{" "}
+              <a href="https://github.com/eshansaif/hotel-haven-backend">
+                Server
+              </a>
+              <FaLink className="w-8 h-7"></FaLink>:{" "}
+              <a href="https://hotel-haven-37e44.web.app/">Live</a>
+            </div>
+            {/* <div className="card-actions justify-end">
+              <motion.button
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
+                onClick={() => window.my_modal_5.showModal()}
+                className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
+              >
+                Details
+              </motion.button>
+            </div> */}
+          </div>
+        </div>
+        <div
+          className="card card-compact  w-full h-96 bg-gray-700 shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          <figure>
+            <div className="image-wrap">
+              <img className="img" src="pixieplay.png" alt="PixiePlay" />
+            </div>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              PixiePlay (A Car Toys Market place for Kids)
+            </h2>
+            <div className="flex space-x-3 items-center">
+              <FaGithub className="w-8 h-7"></FaGithub>:{" "}
+              <a href="https://github.com/eshansaif/pixieplay-client">Client</a>
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
               <a href="https://github.com/eshansaif/pixieplay-clientr">
                 Server
@@ -69,27 +104,25 @@ const Projects = () => {
         >
           <figure>
             <div className="image-wrap">
-              <img
-                className="img"
-                src="baburchi-king.png"
-                alt="Baburchi king"
-              />
+              <img className="img" src="roshuighor.png" alt="Roshui Ghor" />
             </div>
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Baburchi King (A recipe Showcasing Website)</h2>
+            <h2 className="card-title">
+              Roshui Ghor (A recipe Showcasing Website)
+            </h2>
 
             <div className="flex space-x-3 items-center">
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/eshansaif/baburchi-king">
+              <a href="https://github.com/eshansaif/roshui-ghor-client">
                 Client
               </a>
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/eshansaif/baburchi-king-server">
+              <a href="https://github.com/eshansaif/roshui-ghor-backend">
                 Server
               </a>
               <FaLink className="w-8 h-7"></FaLink>:{" "}
-              <a href="https://baburchi-king.web.app/">Live</a>
+              <a href="https://roshui-ghor.web.app/">Live</a>
             </div>
             {/* <div className="card-actions justify-end">
               <motion.button
@@ -113,11 +146,7 @@ const Projects = () => {
         >
           <figure>
             <div className="image-wrap">
-              <img
-                className="img"
-                src="jobs-career.png"
-                alt="Shoes"
-              />
+              <img className="img" src="jobs-career.png" alt="Shoes" />
             </div>
           </figure>
           <div className="card-body">

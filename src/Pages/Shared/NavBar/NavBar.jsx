@@ -30,16 +30,18 @@ const NavBar = () => {
       >
         <div>
           <Link to="/">
-
-            <span className="uppercase font-bold">Shanjeed <span className="text-[#1fc9e7]">Saif</span></span>
+            <span className="uppercase font-bold">
+              Shanjeed <span className="text-[#1fc9e7]">Saif</span>
+            </span>
           </Link>
         </div>
         <div>
           <ul
-            className={`lg:flex lg:space-x-7  absolute lg:relative ${open
-              ? "top-24  border-2 border-[#4e9eff] py-4 space-y-4 right-1 text-center z-10 lg:top-0 bg-slate-800 text-white w-40 h-auto lg:w-0 lg:h-0 "
-              : "hidden"
-              }`}
+            className={`lg:flex lg:space-x-7  absolute lg:relative ${
+              open
+                ? "top-24  border-2 border-[#4e9eff] py-4 space-y-4 right-1 text-center z-10 lg:top-0 bg-slate-800 text-white w-40 h-auto lg:w-0 lg:h-0 "
+                : "hidden"
+            }`}
           >
             <li>
               <NavLink
@@ -98,7 +100,7 @@ const NavBar = () => {
               //textShadow: "0px 0px 8px rgb(255,255,255)",
               boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
-            href="Md_Shanjeed_Saif_Resume.pdf"
+            href="Md_Shanjeed Saif_Resume_MERN.pdf"
             download="Md_Shanjeed_Saif_Resume"
             className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
           >

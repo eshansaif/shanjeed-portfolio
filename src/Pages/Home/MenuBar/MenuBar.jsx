@@ -15,8 +15,7 @@ const MenuBar = () => {
           data-aos-duration="3000"
         >
           <h1 className="text-xl lg:text-3xl font-bold">
-            <span className="text-center text-base">Welcome</span>{" "}
-            <br />
+            <span className="text-center text-base">Welcome</span> <br />
             <span className="text-2xl lg:text-4xl  font-bold">
               I'm Md. Shanjeed Saif
             </span>
@@ -28,19 +27,26 @@ const MenuBar = () => {
           </div> */}
 
           <ReactTypingEffect
-            text={["Full-Stack Web Developer ", "Specialized in MERN Stack ", "React.js Developer ", "Front-end Web Developer "]}
-            cursorRenderer={cursor => <h1 className=' text-3xl'>{cursor}</h1>}
+            text={[
+              "Full-Stack Web Developer ",
+              "Specialized in MERN Stack ",
+              "React.js Developer ",
+              "Front-end Web Developer ",
+            ]}
+            cursorRenderer={(cursor) => <h1 className=" text-3xl">{cursor}</h1>}
             displayTextRenderer={(text, i) => {
               return (
                 <h1>
-                  {text.split('').map((char, i) => {
+                  {text.split("").map((char, i) => {
                     const key = `${i}`;
                     return (
                       <span
-                        className='text-3xl lg:text-5xl font-bold text-[#1fc9e7]'
+                        className="text-3xl lg:text-5xl font-bold text-[#1fc9e7]"
                         key={key}
-                      // style={i % 2 === 0 ? { color: 'magenta' } : {}}
-                      >{char}</span>
+                        // style={i % 2 === 0 ? { color: 'magenta' } : {}}
+                      >
+                        {char}
+                      </span>
                     );
                   })}
                 </h1>
@@ -51,8 +57,12 @@ const MenuBar = () => {
           />
 
           <p className="py-6">
-            Passionate about web development and skilled in the MERN Stack. I have
-            completed my Bachelor program in Business Information Technology (BIT) and completing my Masters in Software Engineering. I'm a Fresher developer ready to make an impact. With expertise in HTML, CSS, JavaScript, React, Express.js and Node.js I enjoy building user-friendly web applications.
+            Passionate about web development and skilled in the MERN Stack. I
+            have completed my Bachelor program in Business Information
+            Technology (BIT) and Masters in Software Engineering. I'm a Fresher
+            developer ready to make an impact. With expertise in HTML, CSS,
+            JavaScript, React, Express.js and Node.js I enjoy building
+            user-friendly web applications.
           </p>
           <Link to="/projects">
             <motion.button
