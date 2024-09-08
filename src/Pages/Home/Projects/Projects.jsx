@@ -26,6 +26,51 @@ const Projects = () => {
         >
           <figure>
             <div className="image-wrap">
+              <img
+                className="img"
+                src="eduMap_landing_page.png"
+                alt="EduMap Chemnitz"
+              />
+            </div>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              EduMap Chemnitz (A Service Finder Map App)
+            </h2>
+            <div className="flex space-x-3 items-center">
+              <FaGithub className="w-8 h-7"></FaGithub>:{" "}
+              <a href="https://github.com/eshansaif/edu-map-chemnitz-client">
+                Client
+              </a>
+              <FaGithub className="w-8 h-7"></FaGithub>:{" "}
+              <a href="https://github.com/eshansaif/edu-map-chemnitz-server">
+                Server
+              </a>
+              <FaLink className="w-8 h-7"></FaLink>:{" "}
+              <a href="https://chemnitz-map-app.web.app/">Live</a>
+            </div>
+            {/* <div className="card-actions justify-end">
+              <motion.button
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
+                onClick={() => window.my_modal_5.showModal()}
+                className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
+              >
+                Details
+              </motion.button>
+            </div> */}
+          </div>
+        </div>
+        <div
+          className="card card-compact  w-full h-96 bg-gray-700 shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          <figure>
+            <div className="image-wrap">
               <img className="img" src="hotelheaven.png" alt="HotelHeaven" />
             </div>
           </figure>
@@ -76,9 +121,7 @@ const Projects = () => {
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
               <a href="https://github.com/eshansaif/pixieplay-client">Client</a>
               <FaGithub className="w-8 h-7"></FaGithub>:{" "}
-              <a href="https://github.com/eshansaif/pixieplay-clientr">
-                Server
-              </a>
+              <a href="https://github.com/eshansaif/pixieplay-server">Server</a>
               <FaLink className="w-8 h-7"></FaLink>:{" "}
               <a href="https://pixieplay-e4ac8.web.app/">Live</a>
             </div>
