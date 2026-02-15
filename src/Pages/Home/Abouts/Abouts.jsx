@@ -19,7 +19,7 @@ const Abouts = () => {
             //textShadow: "0px 0px 8px rgb(255,255,255)",
             boxShadow: "0px 0px 8px rgb(255,255,255)",
           }}
-          src="eshan_portfolio.png"
+          src="eshan_portfolio.jpeg"
           className="w-full lg:w-80 h-full rounded-lg border-2 border-[#4e9eff] img-style"
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -125,6 +125,46 @@ const Abouts = () => {
                       >
                         React JS
                       </motion.button>
+                      <motion.button
+                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
+                        whileHover={{
+                          scale: 1.2,
+                          //textShadow: "0px 0px 8px rgb(255,255,255)",
+                          boxShadow: "0px 0px 8px rgb(255,255,255)",
+                        }}
+                      >
+                        NextJs
+                      </motion.button>
+                      <motion.button
+                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
+                        whileHover={{
+                          scale: 1.2,
+                          //textShadow: "0px 0px 8px rgb(255,255,255)",
+                          boxShadow: "0px 0px 8px rgb(255,255,255)",
+                        }}
+                      >
+                        Agile (Scrum)
+                      </motion.button>
+                      <motion.button
+                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
+                        whileHover={{
+                          scale: 1.2,
+                          //textShadow: "0px 0px 8px rgb(255,255,255)",
+                          boxShadow: "0px 0px 8px rgb(255,255,255)",
+                        }}
+                      >
+                        Jira & Trello
+                      </motion.button>
+                      <motion.button
+                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
+                        whileHover={{
+                          scale: 1.2,
+                          //textShadow: "0px 0px 8px rgb(255,255,255)",
+                          boxShadow: "0px 0px 8px rgb(255,255,255)",
+                        }}
+                      >
+                        Notion
+                      </motion.button>
                     </div>
                   </div>
                   <div>
@@ -169,16 +209,6 @@ const Abouts = () => {
                       Familiar with :{" "}
                     </h1>
                     <div className="space-x-4 text-start space-y-3">
-                      <motion.button
-                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
-                        whileHover={{
-                          scale: 1.2,
-                          //textShadow: "0px 0px 8px rgb(255,255,255)",
-                          boxShadow: "0px 0px 8px rgb(255,255,255)",
-                        }}
-                      >
-                        Next js
-                      </motion.button>
                       <motion.button
                         className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
                         whileHover={{
@@ -233,6 +263,16 @@ const Abouts = () => {
                         }}
                       >
                         Chrome dev Tool
+                      </motion.button>
+                      <motion.button
+                        className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
+                        whileHover={{
+                          scale: 1.2,
+                          //textShadow: "0px 0px 8px rgb(255,255,255)",
+                          boxShadow: "0px 0px 8px rgb(255,255,255)",
+                        }}
+                      >
+                        LightHouse
                       </motion.button>
                       <motion.button
                         className="border-2 text-white border-[#4e9eff] px-2 py-1 lg:px-3 lg:py-2 hover:bg-gray-500"
@@ -318,8 +358,8 @@ const Abouts = () => {
                 //textShadow: "0px 0px 8px rgb(255,255,255)",
                 boxShadow: "0px 0px 8px rgb(255,255,255)",
               }}
-              href="Md_Shanjeed Saif_Resume_MERN.pdf"
-              download="Md_Shanjeed_Saif_Resume"
+              href="shanjeed-saif-resume.pdf"
+              download="md-shanjeed-saif-resume"
               className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
             >
               Download Resume

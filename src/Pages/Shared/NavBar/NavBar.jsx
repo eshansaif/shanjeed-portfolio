@@ -100,11 +100,11 @@ const NavBar = () => {
               //textShadow: "0px 0px 8px rgb(255,255,255)",
               boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
-            href="Md_Shanjeed Saif_Resume_MERN.pdf"
-            download="Md_Shanjeed_Saif_Resume"
+            href="https://drive.google.com/file/d/1L3Qg3IGNkde8wTF0FZv3Rq_m_isZmmL0/view"
+            // download="Md_Shanjeed_Saif_Resume"
             className="py-2  px-3 bg-gradient-to-r from-cyan-400 to-sky-700 rounded shadow-sm"
           >
-            Download Resume
+            View Resume
           </motion.a>
           <p className="md:hidden" onClick={() => setOpen(!open)}>
             {open ? (

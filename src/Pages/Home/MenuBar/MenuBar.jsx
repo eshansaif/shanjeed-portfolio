@@ -30,8 +30,10 @@ const MenuBar = () => {
             text={[
               "Full-Stack Web Developer ",
               "Specialized in MERN Stack ",
+              "Software Engineer ",
               "React.js Developer ",
               "Front-end Web Developer ",
+              "Project Manager ",
             ]}
             cursorRenderer={(cursor) => <h1 className=" text-3xl">{cursor}</h1>}
             displayTextRenderer={(text, i) => {
@@ -57,12 +59,13 @@ const MenuBar = () => {
           />
 
           <p className="py-6">
-            Passionate about web development and skilled in the MERN Stack. I
-            have completed my Bachelor program in Business Information
-            Technology (BIT) and Masters in Software Engineering. I'm a Fresher
-            developer ready to make an impact. With expertise in HTML, CSS,
-            JavaScript, React, Express.js and Node.js I enjoy building
-            user-friendly web applications.
+            Passionate about web development with expertise in the MERN stack
+            (MongoDB, Express.js, React, Node.js). Skilled in building scalable,
+            user-friendly enterprise applications with clean architecture and
+            high performance. Holds a Bachelor in Business Information
+            Technology (BIT) and a Master's in Software Engineering. Committed
+            to Agile project management and delivering reliable, high-impact
+            software solutions.
           </p>
           <Link to="/projects">
             <motion.button
